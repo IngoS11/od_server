@@ -1,0 +1,7 @@
+.venv/
+.vscode/
+backup/
+snapshots/
+__pycache__/
+detect.tflite
+coco_labels.txt
