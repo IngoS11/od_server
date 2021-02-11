@@ -18,19 +18,19 @@ sudo apt install python3-pip python3-pil python3-venv git libatlas-base-dev libo
 ```
 Clone this repository and create a virtual python environment in it
 ```
-$> git clone https://github.com/Ingos11/od_server
-$> cd od_server
-$> python3 -m venv .venv
+git clone https://github.com/Ingos11/od_server
+cd od_server
+python3 -m venv .venv
 ```
 Follow the Tensorflow Light Installation. At the time of writing the only thing that
 was needed from there is.
 ```
-$> pip3 install https://github.com/google-coral/pycoral/releases/download/release-frogfish/tflite_runtime-2.5.0-cp37-cp37m-linux_armv7l.whl
+pip3 install https://github.com/google-coral/pycoral/releases/download/release-frogfish/tflite_runtime-2.5.0-cp37-cp37m-linux_armv7l.whl
 
 ```
 Download and Install Models, Labels and Python Requirements for the project
 ```
-$> download.sh
+download.sh
 ```
 
 ## Usage of the Object Watcher
